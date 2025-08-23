@@ -1,7 +1,7 @@
 {
   "$schema": "https://mintlify.com/docs.json",
   "theme": "aspen",
-  "name": "Mint Starter Kit",
+  "name": "tinyCore Documentation",
   "colors": {
     "primary": "#16A34A",
     "light": "#07C983",
@@ -11,58 +11,125 @@
   "navigation": {
     "tabs": [
       {
-        "tab": "Guides",
+        "tab": "Core How-To's",
         "groups": [
           {
-            "group": "Getting started",
+            "group": "Basics",
             "pages": [
-              "index",
-              "quickstart",
-              "development"
+              "core/basics/blink-led",
+              "core/basics/control-buzzer",
+              "core/basics/detect-motion",
+              "core/basics/read-button",
+              "core/basics/read-sensor",
+              "core/basics/save-data",
+              "core/basics/serial-monitor",
+              "core/basics/serial-plotter",
+              "core/basics/connect-wifi"
             ]
           },
           {
-            "group": "Customization",
+            "group": "Advanced",
             "pages": [
-              "essentials/settings",
-              "essentials/navigation"
-            ]
-          },
-          {
-            "group": "Writing content",
-            "pages": [
-              "essentials/markdown",
-              "essentials/code",
-              "essentials/images",
-              "essentials/reusable-snippets"
-            ]
-          },
-          {
-            "group": "AI tools",
-            "pages": [
-              "ai-tools/cursor",
-              "ai-tools/claude-code",
-              "ai-tools/windsurf"
+              "core/advanced/ai-models",
+              "core/advanced/smart-home",
+              "core/advanced/dabble-app",
+              "core/advanced/link-devices",
+              "core/advanced/web-interface",
+              "core/advanced/cloud-data",
+              "core/advanced/usb-storage",
+              "core/advanced/thingspeak",
+              "core/advanced/game-controller",
+              "core/advanced/midi-instrument",
+              "core/advanced/google-sheets"
             ]
           }
         ]
       },
       {
-        "tab": "API reference",
+        "tab": "Expansion How-To's",
         "groups": [
           {
-            "group": "API documentation",
+            "group": "tinyGlow",
             "pages": [
-              "api-reference/introduction"
+              "expansions/tinyglow/smart-rgb-leds",
+              "expansions/tinyglow/rgb-matrix",
+              "expansions/tinyglow/multiple-strips",
+              "expansions/tinyglow/phone-control",
+              "expansions/tinyglow/lighting-effects"
             ]
           },
           {
-            "group": "Endpoint examples",
+            "group": "tinyVoice",
             "pages": [
-              "api-reference/endpoint/get",
-              "api-reference/endpoint/create",
-              "api-reference/endpoint/delete",
-              "api-reference/endpoint/webhook"
+              "expansions/tinyvoice/record-voice",
+              "expansions/tinyvoice/playback-sound",
+              "expansions/tinyvoice/voice-commands",
+              "expansions/tinyvoice/generate-music",
+              "expansions/tinyvoice/ai-chatbot"
+            ]
+          },
+          {
+            "group": "tinyDisplay",
+            "pages": [
+              "expansions/tinydisplay/display-shapes",
+              "expansions/tinydisplay/display-text",
+              "expansions/tinydisplay/show-images",
+              "expansions/tinydisplay/animate",
+              "expansions/tinydisplay/touchscreen"
+            ]
+          },
+          {
+            "group": "tinySniff",
+            "pages": [
+              "expansions/tinysniff/take-measurements",
+              "expansions/tinysniff/calibrate-sensors",
+              "expansions/tinysniff/view-data-online",
+              "expansions/tinysniff/phone-notifications"
+            ]
+          },
+          {
+            "group": "tinyMove",
+            "pages": [
+              "expansions/tinymove/control-motors",
+              "expansions/tinymove/control-servos"
+            ]
+          },
+          {
+            "group": "tinyProto",
+            "pages": [
+              "expansions/tinyproto/custom-sensors",
+              "expansions/tinyproto/design-circuit",
+              "expansions/tinyproto/easyeda-layout",
+              "expansions/tinyproto/solder"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "Reference",
+        "groups": [
+          {
+            "group": "Basics",
+            "pages": [
+              "reference/basics/what-is-gpio",
+              "reference/basics/what-is-i2c",
+              "reference/basics/what-is-serial",
+              "reference/basics/what-is-imu",
+              "reference/basics/what-is-sd-card",
+              "reference/basics/what-is-espnow"
+            ]
+          },
+          {
+            "group": "Advanced",
+            "pages": [
+              "reference/advanced/what-is-i2s",
+              "reference/advanced/what-is-ble",
+              "reference/advanced/what-is-hid",
+              "reference/advanced/what-is-midi",
+              "reference/advanced/what-is-dma-fastadc",
+              "reference/advanced/what-is-wifi",
+              "reference/advanced/what-is-tinyml",
+              "reference/advanced/what-is-pwm"
             ]
           }
         ]

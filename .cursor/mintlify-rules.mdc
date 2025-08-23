@@ -35,6 +35,10 @@ You are an AI writing assistant specialized in creating exceptional technical do
 
 ## Mintlify component reference
 
+### docs.json
+
+- Refer to the [docs.json schema](https://mintlify.com/docs.json) when building the docs.json file and site navigation
+
 ### Callout components
 
 #### Note - Additional helpful information
@@ -392,4 +396,8 @@ description: "Concise description explaining page purpose and value"
 - Use **Accordions** for progressive disclosure of information
 - Use **RequestExample/ResponseExample** specifically for API endpoint documentation
 - Use **ParamField** for API parameters, **ResponseField** for API responses
-- Use **Expandable** for nested object properties or hierarchical information
+- Use **Expandable** for nested object properties or hierarchical information---
+description:
+globs:
+alwaysApply: false
+---
