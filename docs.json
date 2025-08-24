@@ -1,7 +1,7 @@
 {
   "$schema": "https://mintlify.com/docs.json",
   "theme": "aspen",
-  "name": "tinyCore Documentation",
+  "name": "tinyDocs",
   "colors": {
     "primary": "#16A34A",
     "light": "#07C983",
@@ -11,7 +11,7 @@
   "navigation": {
     "tabs": [
       {
-        "tab": "Core How-To's",
+        "tab": "Core Guides",
         "groups": [
           {
             "group": "Basics",
@@ -46,7 +46,7 @@
         ]
       },
       {
-        "tab": "Expansion How-To's",
+        "tab": "Expansion Guides",
         "groups": [
           {
             "group": "tinyGlow",
@@ -139,17 +139,17 @@
       "anchors": [
         {
           "anchor": "Documentation",
-          "href": "https://mintlify.com/docs",
+          "href": "docs.mr.industries",
           "icon": "book-open-cover"
         },
         {
           "anchor": "Community",
-          "href": "https://mintlify.com/community",
-          "icon": "slack"
+          "href": "https://discord.gg/hvJZhwfQsF",
+          "icon": "discord"
         },
         {
           "anchor": "Blog",
-          "href": "https://mintlify.com/blog",
+          "href": "",
           "icon": "newspaper"
         }
       ]
